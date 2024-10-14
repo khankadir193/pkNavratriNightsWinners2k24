@@ -176,3 +176,20 @@ function get_user_img(u_id) {
 
 
 }
+
+
+
+function tinfofunc067(e, info) {
+   var i, contentsr1, linkssr1;
+   contentsr1 = document.getElementsByClassName("tdemo07");
+   for (i = 0; i < contentsr1.length; i++) {
+      contentsr1[i].style.display = "none";
+   }
+   linkssr1 = document.getElementsByClassName("tdemo06");
+   for (i = 0; i < linkssr1.length; i++) {
+      linkssr1[i].className = linkssr1[i].className.replace(" active", "");
+   }
+   document.getElementById(info).style.display = "block";
+   e.currentTarget.className += " active";
+   // document.getElementById("tmybutton067").click();
+}
