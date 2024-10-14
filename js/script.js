@@ -193,3 +193,8 @@ function tinfofunc067(e, info) {
    e.currentTarget.className += " active";
    // document.getElementById("tmybutton067").click();
 }
+
+
+document.addEventListener('DOMContentLoaded',function(){
+   document.getElementById('tmybutton067').click();
+})
